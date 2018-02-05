@@ -3,21 +3,24 @@
   "description": "This tutorial shows you how to use Jenkins to orchestrate building a simple Java application with Maven.",
   "details": {
     "steps": [
-      { "title": "Create your pipeline project in Jenkins", "text": "create_your_pipeline_project_in_jenkins.md" }
-      { "title": "Create your initial Pipeline as a Jenkinsfile", "text": "create_your initial_pipeline_as_a_jenkinsfile.md" }
+      { "title": "Get started", "text": "get_started.md" },
+      { "title": "Create your pipeline project in Jenkins", "text": "create_your_pipeline_project_in_jenkins.md" },
+      { "title": "Create your initial Pipeline as a Jenkinsfile", "text": "create_your_initial_pipeline_as_a_jenkinsfile.md" },
       { "title": "Add a test stage to your Pipeline", "text": "add_a_test_stage_to_your_pipeline.md" },
       { "title": "Add a final deliver stage to your pipeline", "text": "add_a_final_deliver_stage_to_your_pipeline.md" }
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "env-init.sh"
+      "code": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jenkins", "port": 8080}, {"name": "Git-Server", "port": 3000}]
   },
   "backend": {
     "imageid": "docker"
