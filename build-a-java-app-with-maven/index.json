@@ -3,7 +3,9 @@
   "description": "This tutorial shows you how to use Jenkins to orchestrate building a simple Java application with Maven.",
   "details": {
     "steps": [
-      { "title": "Title", "text": "step1.md" }
+      { "title": "Get started", "text": "get_started.md" },
+      { "title": "Add a test stage to your Pipeline", "text": "add_a_test_stage_to_your_pipeline.md" },
+      { "title": "Add a final deliver stage to your pipeline", "text": "add_a_final_deliver_stage_to_your_pipeline.md" }
     ],
     "intro": {
       "text": "intro.md",
