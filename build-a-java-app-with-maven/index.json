@@ -4,6 +4,7 @@
   "details": {
     "steps": [
       { "title": "Get started", "text": "get_started.md" },
+      { "title": "Fork and clone the sample repository on GitHub", "text": "fork-github-repo.md"},
       { "title": "Create your pipeline project in Jenkins", "text": "create_your_pipeline_project_in_jenkins.md" },
       { "title": "Create your initial Pipeline as a Jenkinsfile", "text": "create_your_initial_pipeline_as_a_jenkinsfile.md" },
       { "title": "Add a test stage to your Pipeline", "text": "add_a_test_stage_to_your_pipeline.md" },
