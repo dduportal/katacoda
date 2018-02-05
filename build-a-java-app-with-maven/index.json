@@ -3,10 +3,10 @@
   "description": "This tutorial shows you how to use Jenkins to orchestrate building a simple Java application with Maven.",
   "details": {
     "steps": [
-      { "title": "Create your pipeline project in Jenkins", "text": "Create_your_pipeline_project_in_Jenkins.md" }
-      { "title": "Create your initial Pipeline as a Jenkinsfile", "text": "Create_your initial_Pipeline_as_a_Jenkinsfile.md" }
-      { "title": "Add a test stage to your Pipeline", "text": "Add_a_test_stage_to_your_Pipeline.md" }
-      { "title": "Add a final deliver stage to your pipeline", "text": "Add_a_final_deliver_stage_to_your_Pipeline.md" }
+      { "title": "Create your pipeline project in Jenkins", "text": "create_your_pipeline_project_in_jenkins.md" }
+      { "title": "Create your initial Pipeline as a Jenkinsfile", "text": "create_your initial_pipeline_as_a_jenkinsfile.md" }
+      { "title": "Add a test stage to your Pipeline", "text": "add_a_test_stage_to_your_pipeline.md" },
+      { "title": "Add a final deliver stage to your pipeline", "text": "add_a_final_deliver_stage_to_your_pipeline.md" }
     ],
     "intro": {
       "text": "intro.md",
