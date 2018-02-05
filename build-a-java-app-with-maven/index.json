@@ -14,7 +14,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jenkins", "port": 8080}, {"name": "Git-Server", "port": 3000}]
   },
   "backend": {
     "imageid": "docker"
