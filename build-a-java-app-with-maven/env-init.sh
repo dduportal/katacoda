@@ -28,4 +28,7 @@ services:
     - /var/run/docker.sock:/var/run/docker.sock
 EOF
 
+# Pullin in Parallel for faster startup
+time docker-compose pull
+
 echo "== Environment fully loaded"
