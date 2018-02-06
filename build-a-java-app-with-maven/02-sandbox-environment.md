@@ -10,6 +10,8 @@ This sandbox provides you the following tools:
 * A Jenkins LTS instance with Blue Ocean and Pipeline support
 * A Git Server with the Java Demo Sample application
 
+
+
 # Java Sample Application
 
 The sample Java application outputs the string "Hello world!"
@@ -25,4 +27,4 @@ by cloning it on the sandbox environment from the Git Server.
 Execute the following command on the web based Terminal on your right.
 You can also click on
 
-`git clone https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/butler/simple-java-maven-app`{{execute}}
+`git clone https://butler:butler@[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/butler/simple-java-maven-app`{{execute}}

@@ -29,4 +29,8 @@ EOF
 
 docker-compose -f "${COMPOSE_FILE_PATH}" up -d
 
+git config --global user.email "butler@localhost.local"
+git config --global user.name "Butler"
+git config --global push.default simple
+
 echo "== Environment fully loaded"
