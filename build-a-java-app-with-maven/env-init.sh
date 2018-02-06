@@ -1,7 +1,17 @@
 #!/bin/bash
 
-echo "== Loading your sandbox environment. Pleas wait..."
+set +x # Disable debug
 
+COMPOSE_VERSION=1.18.0
+COMPOSE_PATH="$(which docker-compose)"
+
+echo "== Loading your environment. Please wait..."
+
+curl -sSL -o "${COMPOSE_PATH}" /
+  "https://github.com/docker/compose/releases/download/${COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" \
+chmod a+x "${COMPOSE_PATH}"
+
+touch /docker-compose.yml
 cat <<EOF >docker-compose.yml
 version: '3.2'
 
@@ -19,4 +29,4 @@ services:
     - /var/run/docker.sock:/var/run/docker.sock
 EOF
 
-docker-compose ps
+echo "== Environment fully loaded"
