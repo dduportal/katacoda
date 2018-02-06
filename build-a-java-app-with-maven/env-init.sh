@@ -7,8 +7,7 @@ COMPOSE_PATH="$(which docker-compose)"
 
 echo "== Loading your environment. Please wait..."
 
-curl -sSL -o "${COMPOSE_PATH}" /
-  "https://github.com/docker/compose/releases/download/${COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)"
+curl -sSL -o "${COMPOSE_PATH}" "https://github.com/docker/compose/releases/download/${COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)"
 chmod a+x "${COMPOSE_PATH}"
 
 touch /docker-compose.yml
