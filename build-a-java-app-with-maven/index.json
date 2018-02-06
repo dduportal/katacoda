@@ -4,7 +4,7 @@
   "details": {
     "intro": {
       "text": "01-intro.md",
-      "code": "env-init.sh"
+      "courseData": "env-init.sh"
     },
     "steps": [
       { "title": "Get started", "text": "02-sandbox-environment.md" },
