@@ -29,6 +29,6 @@ services:
 EOF
 
 # Pullin in Parallel for faster startup
-time docker-compose pull
+time docker-compose pull --parallel
 
 echo "== Environment fully loaded"
