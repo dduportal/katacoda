@@ -7,7 +7,8 @@
       "code": "env-init.sh"
     },
     "steps": [
-      { "title": "Get started", "text": "02-get-started.md" },
+      { "title": "Get started", "text": "02-sandbox-environment.md" },
+      { "title": "Accessing Jenkins", "text": "03-accessing-jenkins.md"},
       { "title": "Fork and clone the sample repository on GitHub", "text": "fork-github-repo.md"},
       { "title": "Create your pipeline project in Jenkins", "text": "create_your_pipeline_project_in_jenkins.md" },
       { "title": "Create your initial Pipeline as a Jenkinsfile", "text": "create_your_initial_pipeline_as_a_jenkinsfile.md" },
