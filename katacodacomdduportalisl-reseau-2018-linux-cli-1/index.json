@@ -1,6 +1,9 @@
 {
-  "title": "isl-reseau-2018-linux-cli-1",
-  "description": "ISL Cours de Reseau 2018: Introduction à la ligne de commande Partie 1",
+  "pathwayTitle": "ISL Cours de Reseau 2018: Introduction à la ligne de commande",
+  "title": "Introduction à la ligne de commande - Exercice 1",
+  "description": "CLI: Exercice 1 avec la commande ls",
+  "difficulty": "beginner",
+  "time": "5",
   "details": {
     "steps": [
       {
