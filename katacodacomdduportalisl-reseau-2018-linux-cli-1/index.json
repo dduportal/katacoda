@@ -4,7 +4,6 @@
   "description": "CLI: Exercice 1 avec la commande ls",
   "difficulty": "Beginner",
   "time": "5 min",
-  "courseData": "configure-at-startup.sh",
   "details": {
     "steps": [
       {
@@ -21,7 +20,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "configure-at-startup.sh"
     },
     "finish": {
       "text": "finish.md"
