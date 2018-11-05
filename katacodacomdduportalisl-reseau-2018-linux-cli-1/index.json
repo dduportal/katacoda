@@ -4,7 +4,7 @@
   "description": "CLI: Exercice 1 avec la commande ls",
   "difficulty": "Beginner",
   "time": "5 min",
-  "code": "configure-at-startup.sh",
+  "courseData": "configure-at-startup.sh",
   "details": {
     "steps": [
       {
